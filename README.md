@@ -1,16 +1,13 @@
 # Library_project
-what is this project about?
-1. Make a function constructor to create a book object every book should
-have (name, price, author) properties.
-2.  the author is a function constructor too that has (name and email property).
-3. Then make your own interface and ask the user for number of books
-would be entered 
-4. Create an array of books objects and fill its data from the user throw a
-validated form.
-5. After the user enters the needed data for all number of books fill a table
-with this data each row contains a book info with edit and delete
-buttons
-o Edit button: when it clicked all table fields be editable so the user
-could update the book info and could save the changes or cancel
-it..
-o Delete button: will delete the book and whole row.
+This project is a simple book management interface using JavaScript. It involves creating a Book object using a function constructor, where each book has name, price, and an author (also an object created using a separate constructor with name and email properties).
+
+The user is prompted to enter the number of books they want to add. A validated form is used to input the data for each book, which is then stored in an array of book objects.
+
+Once all the books are entered, a table displays each book’s information with Edit and Delete buttons:
+
+Edit: Makes the row editable so the user can update the book's details, with options to Save or Cancel changes.
+
+Delete: Removes the book from the array and deletes the corresponding row from the table.
+
+This project demonstrates basic JavaScript object-oriented programming, DOM manipulation, form validation, and dynamic UI interaction.
+
